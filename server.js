@@ -22,4 +22,4 @@ db.once('open', () => console.log('Coneect to db'))
 app.use('/',indexRouter)
 
 
-app.listen(process.env.PORT || 3041)
+app.listen(process.env.PORT || 3100)
